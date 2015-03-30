@@ -1,4 +1,4 @@
-package ar.com.mouly.materialstore.views.activities;
+package ar.com.mouly.materialstore.app.views.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;

@@ -1,4 +1,4 @@
-package ar.com.mouly.materialstore;
+package ar.com.mouly.materialstore.app;
 
 import android.app.Application;
 

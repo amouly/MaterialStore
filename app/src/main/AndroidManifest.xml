@@ -1,6 +1,6 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ar.com.mouly.materialstore">
+    package="ar.com.mouly.materialstore.app">
 
     <application
         android:allowBackup="true"
