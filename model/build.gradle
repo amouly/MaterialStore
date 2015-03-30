@@ -1,5 +1,14 @@
 apply plugin: 'java'
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    // HTTP Client
+    compile 'com.squareup.okhttp:okhttp-urlconnection:2.0.0'
+    compile 'com.squareup.okhttp:okhttp:2.0.0'
+
+    // REST handler
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.squareup.retrofit:retrofit-mock:1.9.0'
+
+    // JSON
+    compile 'com.google.code.gson:gson:2.3'
 }
