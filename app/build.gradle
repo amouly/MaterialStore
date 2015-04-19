@@ -20,6 +20,10 @@ android {
 }
 
 dependencies {
+    // Domain compiles Model and Common
+    compile project(':domain')
+
+    // Support
     compile 'com.android.support:appcompat-v7:22.0.0'
     compile 'com.android.support:cardview-v7:21.0.3'
     compile 'com.android.support:palette-v7:21.0.3'
@@ -28,6 +32,8 @@ dependencies {
 
     // View Injection
     compile 'com.jakewharton:butterknife:6.0.0'
+
+    // Navigation Drawer
     compile('com.mikepenz.materialdrawer:library:2.6.8@aar') {
         transitive = true
     }
